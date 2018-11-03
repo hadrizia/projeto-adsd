@@ -1,4 +1,11 @@
-# projeto-adsd 2018.2
+# Projeto ADSD 2018.2
+  
+  Projeto implementado para a disciplina de Análise de Desempenho de Sistemas Discretos durante o período de 2018.2. O grupo é composto por:
+  
+    * Ana Godoy
+    * Hadrizia Santos
+
+## Descrição do Projeto
 
   O projeto consiste em um sistema que implementa uma API REST que realiza operações em banco de dados sobre serviços. A API fornece o CRUD de destes serviços:
   
@@ -7,7 +14,8 @@
    *  **TODO** `PUT` serviço: Edita dados de um prestador de serviços;
    *  **TODO** `DELETE` serviço: Apaga dados de um prestador de serviços.
   
-  Para a parte de simulação, teriamos os seguintes componentes:
+## Simulação
+  Para a parte de simulação, utilizamos a biblioteca [SimJava](http://www.icsa.inf.ed.ac.uk/research/groups/hase/simjava/guide/tutorial.html) e abstraímos os os seguintes componentes:
   
   * `Gerador de requisições Web`: responsável por gerenciar requisições provenientes de computadores;
   * `Gerador de requisições Mobile`: responsável por gerenciar requisições provenientes de dispositivos móveis;
