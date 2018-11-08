@@ -11,12 +11,12 @@ public class Dispatcher extends Sim_entity {
 	
     private double delay;
 
-    public Dispatcher(String name, double delay) {
+    public Dispatcher(String name, double delay, String out_mobile_name, String out_web_name) {
       super(name);
       this.delay = delay;
       // Porta que envia eventos para o processador
-      out_mobile = new Sim_port("Out_mobile");
-      out_web = new Sim_port("Out_web");
+      out_mobile = new Sim_port(out_mobile_name);
+      out_web = new Sim_port(out_web_name);
       
       // Adicionando as portas de mobile e de web
       add_port(out_mobile);
